@@ -21,6 +21,10 @@
 		9F57BBAF2BC049AD00E61358 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F57BBAE2BC049AD00E61358 /* ContentView.swift */; };
 		9F57BBB12BC049AE00E61358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F57BBB02BC049AE00E61358 /* Assets.xcassets */; };
 		9F57BBB42BC049AE00E61358 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F57BBB32BC049AE00E61358 /* Preview Assets.xcassets */; };
+		9FA1A7082BD63C6900549C0B /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1A7072BD63C6900549C0B /* HeadingView.swift */; };
+		9FA1A70A2BD63CF300549C0B /* FactsGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1A7092BD63CF300549C0B /* FactsGalleryView.swift */; };
+		9FA1A70C2BD647B400549C0B /* CompactMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1A70B2BD647B400549C0B /* CompactMapView.swift */; };
+		9FA1A70E2BD64D6400549C0B /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1A70D2BD64D6400549C0B /* ExternalWebLinkView.swift */; };
 		9FEAB8CC2BC04DB300ADEF6B /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9FEAB8C22BC04DB200ADEF6B /* rhino.mp4 */; };
 		9FEAB8CD2BC04DB300ADEF6B /* hippo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9FEAB8C32BC04DB200ADEF6B /* hippo.mp4 */; };
 		9FEAB8CE2BC04DB300ADEF6B /* ostrich.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9FEAB8C42BC04DB200ADEF6B /* ostrich.mp4 */; };
@@ -53,6 +57,10 @@
 		9F57BBAE2BC049AD00E61358 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F57BBB02BC049AE00E61358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F57BBB32BC049AE00E61358 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FA1A7072BD63C6900549C0B /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		9FA1A7092BD63CF300549C0B /* FactsGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsGalleryView.swift; sourceTree = "<group>"; };
+		9FA1A70B2BD647B400549C0B /* CompactMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactMapView.swift; sourceTree = "<group>"; };
+		9FA1A70D2BD64D6400549C0B /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
 		9FEAB8C22BC04DB200ADEF6B /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
 		9FEAB8C32BC04DB200ADEF6B /* hippo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hippo.mp4; sourceTree = "<group>"; };
 		9FEAB8C42BC04DB200ADEF6B /* ostrich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ostrich.mp4; sourceTree = "<group>"; };
@@ -99,6 +107,10 @@
 			children = (
 				9F1B1DC02BD3AFFA004F5453 /* CoverImageView.swift */,
 				9F1CEDC72BD3E7A100D960CB /* AnimalListItemView.swift */,
+				9FA1A7072BD63C6900549C0B /* HeadingView.swift */,
+				9FA1A7092BD63CF300549C0B /* FactsGalleryView.swift */,
+				9FA1A70B2BD647B400549C0B /* CompactMapView.swift */,
+				9FA1A70D2BD64D6400549C0B /* ExternalWebLinkView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -282,9 +294,13 @@
 				9F1B1DC72BD3B7CB004F5453 /* CoverImage.swift in Sources */,
 				9F11EFCC2BC0A50A00DE3642 /* VideoListView.swift in Sources */,
 				9F57BBAD2BC049AD00E61358 /* AfricaApp.swift in Sources */,
+				9FA1A70A2BD63CF300549C0B /* FactsGalleryView.swift in Sources */,
+				9FA1A70C2BD647B400549C0B /* CompactMapView.swift in Sources */,
 				9F1CEDCA2BD3FB0000D960CB /* AnimalDetailsView.swift in Sources */,
 				9F11EFCA2BC0A4F600DE3642 /* GalleryView.swift in Sources */,
 				9F1CEDC62BD3E79100D960CB /* Animal.swift in Sources */,
+				9FA1A7082BD63C6900549C0B /* HeadingView.swift in Sources */,
+				9FA1A70E2BD64D6400549C0B /* ExternalWebLinkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
