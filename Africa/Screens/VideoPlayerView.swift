@@ -10,16 +10,15 @@ import AVKit
 
 struct VideoPlayerView: View {
     let video : Video
-    
-    
-    func initializePlayer () -> AVPlayer {
+    var videoPlayer : AVPlayer {
         let videoPlayer : AVPlayer =
         AVPlayer(url:  Bundle.main.url(forResource: "\(video.id)", withExtension: "mp4")!)
         videoPlayer.play()
         return videoPlayer
     }
+
     var body: some View {
-        VideoPlayer(player:initializePlayer ())
+        VideoPlayer(player:videoPlayer)
             .scaledToFit()
             .navigationBarTitle("Watch \(video.name) in action")
             .navigationBarTitleDisplayMode(.inline)
