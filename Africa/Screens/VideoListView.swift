@@ -7,9 +7,29 @@
 
 import SwiftUI
 
+
 struct VideoListView: View {
+    @State var videos : [Video] = Bundle.main.decode("videos.json")
+    let hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List{
+                ForEach(videos) { video in
+                    VideoListItemView(video: video)
+                        .padding(.vertical, 4)
+                }
+            }//: List
+            .listStyle(.insetGrouped)
+            .navigationTitle("Videos")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarItems(trailing: Button{
+                videos.shuffle()
+                hapticImpact.impactOccurred()
+            } label: {
+                Image(systemName: "shuffle")
+            })
+            .scrollIndicators(.hidden)
+        }//: NavigationView
     }
 }
 
