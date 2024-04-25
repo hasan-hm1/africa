@@ -58,3 +58,11 @@ struct GalleryMotionView: View {
 #Preview {
     GalleryMotionView()
 }
+
+
+extension GalleryMotionView: Equatable {
+    static func == (lhs: GalleryMotionView, rhs: GalleryMotionView) -> Bool {
+        // Return true because the background does not depend on any external properties
+        return true
+    }
+}
