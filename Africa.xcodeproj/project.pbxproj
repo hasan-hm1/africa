@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F028F862BDA0CE0006533D2 /* GalleryMotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F028F852BDA0CE0006533D2 /* GalleryMotionView.swift */; };
 		9F11EFC82BC0A4EF00DE3642 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F11EFC72BC0A4EF00DE3642 /* MainView.swift */; };
 		9F11EFCA2BC0A4F600DE3642 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F11EFC92BC0A4F600DE3642 /* GalleryView.swift */; };
 		9F11EFCC2BC0A50A00DE3642 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F11EFCB2BC0A50A00DE3642 /* VideoListView.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F028F852BDA0CE0006533D2 /* GalleryMotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryMotionView.swift; sourceTree = "<group>"; };
 		9F11EFC72BC0A4EF00DE3642 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9F11EFC92BC0A4F600DE3642 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		9F11EFCB2BC0A50A00DE3642 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				9FA1A70D2BD64D6400549C0B /* ExternalWebLinkView.swift */,
 				9F61214A2BD799BF00E2CEE5 /* VideoListItemView.swift */,
 				9F6121502BD7DFA900E2CEE5 /* NationalParkAnnotation.swift */,
+				9F028F852BDA0CE0006533D2 /* GalleryMotionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				9F57BBAD2BC049AD00E61358 /* AfricaApp.swift in Sources */,
 				9FA1A70A2BD63CF300549C0B /* FactsGalleryView.swift in Sources */,
 				9FA1A70C2BD647B400549C0B /* CompactMapView.swift in Sources */,
+				9F028F862BDA0CE0006533D2 /* GalleryMotionView.swift in Sources */,
 				9F6121492BD7986000E2CEE5 /* Video.swift in Sources */,
 				9F1CEDCA2BD3FB0000D960CB /* AnimalDetailsView.swift in Sources */,
 				9F11EFCA2BC0A4F600DE3642 /* GalleryView.swift in Sources */,
