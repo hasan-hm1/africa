@@ -6,7 +6,7 @@ Africa app UI based on a tutorial by Robert Petras
 3. Complex layout with animations.
 4. Use Codable, Extention, and Generics.
 5. Play Video files.
-6. Use Maps with anotations. 
+6. Use Maps with annotations. 
 7. Optimize the app’s layout for iPad screens.
 8. Transfer an iPad app to a desktop app with MAC CATALYST.
 
