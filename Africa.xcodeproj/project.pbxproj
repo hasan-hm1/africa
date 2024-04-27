@@ -21,6 +21,12 @@
 		9F3BD5392BDCEC23003FBFFF /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3BD5382BDCEC23003FBFFF /* AnimalGridItemView.swift */; };
 		9F3BD53F2BDD2289003FBFFF /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3BD53E2BDD2289003FBFFF /* Stickers.xcassets */; };
 		9F3BD5432BDD2289003FBFFF /* Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9F3BD53C2BDD2288003FBFFF /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9F3BD5492BDD3B3B003FBFFF /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 9F3BD5482BDD3B3A003FBFFF /* readme.md */; };
+		9F3BD54A2BDD3B3B003FBFFF /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 9F3BD5482BDD3B3A003FBFFF /* readme.md */; };
+		9F3BD54C2BDD3B58003FBFFF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9F3BD54B2BDD3B58003FBFFF /* .gitignore */; };
+		9F3BD54D2BDD3B58003FBFFF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9F3BD54B2BDD3B58003FBFFF /* .gitignore */; };
+		9F3BD54F2BDD3B6C003FBFFF /* preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F3BD54E2BDD3B6C003FBFFF /* preview.gif */; };
+		9F3BD5502BDD3B6C003FBFFF /* preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F3BD54E2BDD3B6C003FBFFF /* preview.gif */; };
 		9F57BBAD2BC049AD00E61358 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F57BBAC2BC049AD00E61358 /* AfricaApp.swift */; };
 		9F57BBAF2BC049AD00E61358 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F57BBAE2BC049AD00E61358 /* ContentView.swift */; };
 		9F57BBB12BC049AE00E61358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F57BBB02BC049AE00E61358 /* Assets.xcassets */; };
@@ -90,6 +96,9 @@
 		9F3BD53C2BDD2288003FBFFF /* Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3BD53E2BDD2289003FBFFF /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		9F3BD5402BDD2289003FBFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3BD5482BDD3B3A003FBFFF /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		9F3BD54B2BDD3B58003FBFFF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9F3BD54E2BDD3B6C003FBFFF /* preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preview.gif; sourceTree = "<group>"; };
 		9F57BBA92BC049AD00E61358 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F57BBAC2BC049AD00E61358 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		9F57BBAE2BC049AD00E61358 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -194,6 +203,9 @@
 		9F57BBA02BC049AD00E61358 = {
 			isa = PBXGroup;
 			children = (
+				9F3BD54B2BDD3B58003FBFFF /* .gitignore */,
+				9F3BD5482BDD3B3A003FBFFF /* readme.md */,
+				9F3BD54E2BDD3B6C003FBFFF /* preview.gif */,
 				9F57BBAB2BC049AD00E61358 /* Africa */,
 				9F3BD53D2BDD2288003FBFFF /* Stickers */,
 				9F57BBAA2BC049AD00E61358 /* Products */,
@@ -341,6 +353,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3BD54A2BDD3B3B003FBFFF /* readme.md in Resources */,
+				9F3BD5502BDD3B6C003FBFFF /* preview.gif in Resources */,
+				9F3BD54D2BDD3B58003FBFFF /* .gitignore in Resources */,
 				9F3BD53F2BDD2289003FBFFF /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +379,9 @@
 				9FEAB8D32BC04DB300ADEF6B /* cheetah.mp4 in Resources */,
 				9FEAB8D02BC04DB300ADEF6B /* zebra.mp4 in Resources */,
 				9FEAB8D22BC04DB300ADEF6B /* lion.mp4 in Resources */,
+				9F3BD54F2BDD3B6C003FBFFF /* preview.gif in Resources */,
+				9F3BD5492BDD3B3B003FBFFF /* readme.md in Resources */,
+				9F3BD54C2BDD3B58003FBFFF /* .gitignore in Resources */,
 				9F57BBB12BC049AE00E61358 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
